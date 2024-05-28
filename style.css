@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+}
+
+#page{
+    margin: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+}
+
+h1{
+    padding-bottom: 40px;
+}
+
+.order-item{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.103);
+    height: auto;
+    padding: 10px;
+    
+}
+
+.order-item-div{
+    margin: 20px;
+}
+
+.order-item p{
+    padding-top: 10px;
+}
+
+.order-item #price{
+    padding-top: 30px;
+}
+
+.item-photo{
+    width: 80px;
+    margin: 20px 0;
+}
+
+.diagram{
+    margin-left: 230px;
+    margin-top: 80px;
+}
+
+.heart{
+    /* background-color: pink; */
+    width: 20px;
+    cursor: pointer;
+}
+
+.delete{
+    width: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#check{
+    height: 100px;
+    transform: scale(1.4);
+    margin-left: 10px;
+    margin-right: 5px;
+    background-color: black;
+}
+
+/* #quantity{
+    
+} */
+/* .lovehate{
+    margin-bottom: 400px;
+} */
+
+
+#order-summary{
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.274);
+    height: 200px;
+    padding: 20px;
+}
+
+#order-summary button{
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    cursor: pointer;
+    border: none;
+}
+
+#order-summary button:hover{
+    background-color: rgba(0, 0, 0, 0.842);
+}
+
+#total-amount{
+    font-size:1.6rem;
+    margin-left: 440px;
+    font-weight: 900;
+}
+
+.quan{
+   display: flex;
+}
+
+.quan button{
+    width: 25px;
+    font-size: 1.3rem;
+    gap: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+    transition: 2s ease-out;
+    transform: translateY(10px);
+}
